@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Click For Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-x-hidden">
+    <header class="w-full flex flex-wrap bg-slate-300 h-[10vh]">
+        <div class="w-1/2 uppercase text-2xl flex items-center h-[10vh] pl-3">mehrsa mohajeri</div>
+        <div class="w-1/2 flex justify-end items-center relative h-[10vh] pr-3">
+            <div class="text-2xl cursor-pointer space-y-[8.5px]" onclick="button()">
+                <span class="_icon duration-300 origin-left flex flex-wrap w-[30px] h-[2px] bg-black"></span>
+                <span class="_icon duration-300 origin-left flex flex-wrap w-[30px] h-[2px] bg-black"></span>
+                <span class="_icon duration-300 origin-left flex flex-wrap w-[30px] h-[2px] bg-black"></span>
+            </div>
+            <ul class="flex flex-wrap justify-center overflow-hidden uppercase duration-300 bg-red-100 absolute right-0 top-[100%] h-0 w-[50%]">
+                <li class="w-full flex justify-center h-[40px] items-center cursor-pointer">menu1</li>
+                <li class="w-full flex justify-center h-[40px] items-center cursor-pointer">menu2</li>
+                <li class="w-full flex justify-center h-[40px] items-center cursor-pointer">menu3</li>
+            </ul>
+        </div>
+        <div class="h-[90vh] w-full translate-x-full btn -z-30" onclick="button()"></div>
+    </header>
+    <script src="master.js"></script>
+</body>
+
+</html>
